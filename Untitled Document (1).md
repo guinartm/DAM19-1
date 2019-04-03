@@ -89,7 +89,7 @@ alternative hypothesis: true location shift is not equal to 0
 
 ___
 
-#### Conclusion
+### Conclusion
 
 With the information provided after running the Mann-Withney/Wilcox test, whe can affirm that the distribution of both samples is not the same, and that in September there is a statistically significant decrease in the number of errors compared to August. We decided to reject the nulle hypothesis in favor of the alternative hypothesis, so we consider the payment of the bonus relevant.	
 						
