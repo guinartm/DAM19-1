@@ -71,7 +71,7 @@ For this case we define:
 
 2. Regarding the assupmtion that the observations of both groups are statistically independent of each other, data are paired and come from the same population, we opt to run a non parametric test, in order to decide whether to pay the bonus or not.
 
-In this case, the Mann-Withney U test (Wilcoxon rank sum test)
+  - In this case, the Mann-Withney U test (Wilcoxon rank sum test):
 
 ````
 > wilcox.test(error~month, mu=0,alt="two.sided", correct=TRUE, paired=FALSE, conf.int=TRUE, data = Data1)
