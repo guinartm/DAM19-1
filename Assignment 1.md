@@ -49,7 +49,7 @@ ___
 
 https://github.com/nicodalessandro11/DAM19/blob/master/Data1.xls
 
-#### Data Visualization
+## Data Visualization
 
 1. We print a Boxplot of the queries_error in our database for a visual Analysis.
 
@@ -63,7 +63,7 @@ https://github.com/nicodalessandro11/DAM19/blob/master/Data1.xls
 ![boxplot](https://github.com/nicodalessandro11/DAM19/blob/master/Rplot.png)
 
 
-#### Statistical Analysis
+## Statistical Analysis
 
 1. Given that Boxplots displays a slight difference between August and September, it is proposed to perform a confirmatory data analisis trough a statistical hypothesis testing.
 
@@ -90,7 +90,7 @@ alternative hypothesis: true location shift is not equal to 0
 
 ___
 
-### Conclusion
+## Conclusion
 
 With the information provided after running the Mann-Withney/Wilcoxon test, whe can affirm that the distribution of both samples is not the same. In September there is a statistically significant decrease in the number of errors compared to August. We decided to reject the nulle hypothesis in favor of the alternative hypothesis, so we consider the payment of the bonus relevant.	
 						
