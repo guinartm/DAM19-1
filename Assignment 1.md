@@ -41,7 +41,7 @@ download: s3://data.public.bdatainstitute.com/dam/query_logs/2018/09/2018_09_184
 ```
 ___
 
-## Data Analisis
+## Data Analysis
 
 1. We note that some of the last files in the August database belong to September and we decided to place this files in the corresponding database.
 
