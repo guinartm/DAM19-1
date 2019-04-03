@@ -60,7 +60,15 @@ Alternative Hipothesis H1 =
 Regarding the assupmtion that the observations from both groups are statistically independent of each other, data are paired and come from the same population, we decided to run a non parametric test to decided 
 
 ````
-wilcox.test(error~month, mu=0,alt="two.sided", correct=TRUE, paired=FALSE, conf.int=TRUE, data = Data1)
+> wilcox.test(error~month, mu=0,alt="two.sided", correct=TRUE, paired=FALSE, conf.int=TRUE, data = Data1)
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  error by month
+W = 3619200, p-value = 7.695e-07
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 2.599664e-06 9.999511e-01
 ````
 
 #### Conclusion
