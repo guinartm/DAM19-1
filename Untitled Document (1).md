@@ -54,14 +54,15 @@ ___
 
 #### Statistical Analysis
 
-1. Given that Boxplots displays a difference between the months, whe propose to run a confirmatory data analisis trough a statistical hypothesis testing.
+1. Given that Boxplots displays a a slight difference between Agust and September, it is proposed to perform a confirmatory data analisis trough a statistical hypothesis testing.
 
-For this case 
+For this case we define: 
 
-Null hypothesis H0 = 
-Alternative Hipothesis H1 = 
+	Null hypothesis H0 = Data August
+	Alternative Hipothesis H1 = Data September
 
-2. Regarding the assupmtion that the observations from both groups are statistically independent of each other, data are paired and come from the same population, we decided to run a non parametric test to decided 
+2. Regarding the assupmtion that the observations of both groups are statistically independent of each other, data are paired and come from the same population, we decided to run a non parametric test to decided whether or not to pay the bonus.
+the bonus
 
 ````
 > wilcox.test(error~month, mu=0,alt="two.sided", correct=TRUE, paired=FALSE, conf.int=TRUE, data = Data1)
