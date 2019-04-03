@@ -92,7 +92,7 @@ ___
 
 ## Conclusion
 
-With the information provided after running the Mann-Withney/Wilcoxon test, we can confirm that the distribution of both samples is not the same. In September, there is statistically a significant decrease in the number of errors compared to August. We decided to reject the nulle hypothesis in favor of the alternative hypothesis, so we consider the bonus payment should be established to the IT department.			
+With the information provided after running the Mann-Withney/Wilcoxon test, we can confirm that the distribution of both samples is not the same. In September, there is statistically a significant decrease in the number of errors compared to August. We decided to reject the nulle hypothesis in favor of the alternative hypothesis, so we consider the bonus payment should be made.			
 						
 						
 						
