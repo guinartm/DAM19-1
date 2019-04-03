@@ -43,6 +43,11 @@ ___
 
 ## Data Analisis
 
+1. We note that some of the last values in the August database belong to September, so we decided to place this data in the corresponding database.
+
+2. A large number of query errors during August 18 that could mean an error in the data collection. However, for our current analysis, we assume that the data is correct.
+
+
 
 
 
@@ -89,7 +94,7 @@ ___
 
 ### Conclusion
 
-With the information provided after running the Mann-Withney/Wilcoxon test, whe can affirm that the distribution of both samples is not the same, and that in September there is a statistically significant decrease in the number of errors compared to August. We decided to reject the nulle hypothesis in favor of the alternative hypothesis, so we consider the payment of the bonus relevant.	
+With the information provided after running the Mann-Withney/Wilcoxon test, whe can affirm that the distribution of both samples is not the same. In September there is a statistically significant decrease in the number of errors compared to August. We decided to reject the nulle hypothesis in favor of the alternative hypothesis, so we consider the payment of the bonus relevant.	
 						
 						
 						
