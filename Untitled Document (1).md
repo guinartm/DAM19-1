@@ -35,9 +35,14 @@ Default output format [None]: ENTER
 We use R to create a Boxplot of the data for Visual Analysis
 
 ````
-$ view(Data1)
-Boxplot(error-month, data = Data1)
+> library(readxl)
+> Data1 <- read_excel("~/Desktop/Data1.xlsx")
+> View(Data1)   
 ````
+
+!~nicolasdalessandro$/Desktop/Rplot.png "Boxplot"
+
+
 At first sigth, we can appreciatte that some of the values are significative far from de
 
 
