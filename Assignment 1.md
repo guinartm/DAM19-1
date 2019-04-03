@@ -47,6 +47,11 @@ ___
 
 2. A large number of query/errors during August 18 that could mean an error in the database. However, for our current analysis, we assume that the data is correct.
 
+mes --- N	--- Rango promedio	--- Suma de rangos
+queries_error ---	agosto	2825	2694,13	7610904,00
+	septiembre	2375	2489,14	5911696,00
+	Total	5200		
+
 https://github.com/nicodalessandro11/DAM19/blob/master/Data1.xls
 
 ## Data Visualization
