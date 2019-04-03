@@ -47,7 +47,7 @@ ___
 
 2. A large number of query/errors during August 18 that could mean an error in the database. However, for our current analysis, we assume that the data is correct.
 
-(https://github.com/nicodalessandro11/DAM19/blob/master/Data1.xls)
+https://github.com/nicodalessandro11/DAM19/blob/master/Data1.xls
 
 #### Data Visualization
 
