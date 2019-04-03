@@ -59,7 +59,8 @@ Alternative Hipothesis H1 =
 
 Regarding the assupmtion that the observations from both groups are statistically independent of each other, data are paired and come from the same population, we decided to run a non parametric test to decided 
 
-
+````wilcox.test(error~month, mu=0,alt="two.sided", correct=TRUE, paired=FALSE, conf.int=TRUE, data = Data1)
+````
 
 #### Conclusion
 
