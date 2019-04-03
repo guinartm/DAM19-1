@@ -69,9 +69,7 @@ For this case we define:
 	Null hypothesis H0 = queries_error August
 	Alternative hypothesis H1 = queries_error September as an improvement
 
-2. Regarding the assupmtion that the observations of both groups are statistically independent of each other, data are paired and come from the same population, we opt to run a non parametric test, in order to decide whether to pay the bonus or not.
-
-  - In this case, the Mann-Withney U test (Wilcoxon rank sum test):
+2. Regarding the assupmtion that the observations of both groups are statistically independent of each other, data are paired and come from the same population, we opt to run a non parametric test, in order to decide whether to pay the bonus or not. For this case, the Mann-Withney U test (Wilcoxon rank sum test):
 
 ````
 > wilcox.test(error~month, mu=0,alt="two.sided", correct=TRUE, paired=FALSE, conf.int=TRUE, data = Data1)
@@ -91,7 +89,7 @@ ___
 
 ### Conclusion
 
-With the information provided after running the Mann-Withney/Wilcox test, whe can affirm that the distribution of both samples is not the same, and that in September there is a statistically significant decrease in the number of errors compared to August. We decided to reject the nulle hypothesis in favor of the alternative hypothesis, so we consider the payment of the bonus relevant.	
+With the information provided after running the Mann-Withney/Wilcoxon test, whe can affirm that the distribution of both samples is not the same, and that in September there is a statistically significant decrease in the number of errors compared to August. We decided to reject the nulle hypothesis in favor of the alternative hypothesis, so we consider the payment of the bonus relevant.	
 						
 						
 						
