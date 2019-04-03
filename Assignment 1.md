@@ -43,13 +43,11 @@ ___
 
 ## Data Analisis
 
-1. We note that some of the last values in the August database belong to September, so we decided to place this data in the corresponding database.
+1. We note that some of the last files in the August database belong to September and we decided to place this files in the corresponding database.
 
-2. A large number of query errors during August 18 that could mean an error in the data collection. However, for our current analysis, we assume that the data is correct.
+2. A large number of query/errors during August 18 that could mean an error in the database. However, for our current analysis, we assume that the data is correct.
 
-
-
-
+(https://github.com/nicodalessandro11/DAM19/blob/master/Data1.xls)
 
 #### Data Visualization
 
