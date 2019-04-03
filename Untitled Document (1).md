@@ -40,7 +40,9 @@ We use R to create a Boxplot of the data for Visual Analysis
 > View(Data1)   
 ````
 
-!~nicolasdalessandro$/Desktop/Rplot.png "Boxplot"
+![Boxplot](https://github.com/nicodalessandro11/DAM19/blob/master/Rplot.png
+
+
 
 
 At first sigth, we can appreciatte that some of the values are significative far from de
