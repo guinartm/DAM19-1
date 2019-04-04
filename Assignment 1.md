@@ -41,11 +41,11 @@ download: s3://data.public.bdatainstitute.com/dam/query_logs/2018/09/2018_09_184
 ```
 ___
 
-## Data Analysis
+## Pre Data Analysis
 
-1. We note that some of the last files in the August database belong to September and we decided to place this files in the corresponding database.
+1. We noted that some of the last files in the August database belong to September, so we decided to place this files in the corresponding database.
 
-2. We observed a large number of query/errors during August 18th which could mean that there is an error in the database. However, for our current analysis, we assume that the data is correct.		
+2. We observed a large number of query/errors during August 18th which could mean that there is an error in the database. However, for our current analysis, we assume that the data is correct.
 
 https://github.com/nicodalessandro11/DAM19/blob/master/Data1.xlsx
 
